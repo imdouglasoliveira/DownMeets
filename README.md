@@ -1,4 +1,4 @@
-*[Versão em Português](README_PT.md)*
+*[Versão em Português](README_PTBR.md)*
 
 # DownMeets
 
