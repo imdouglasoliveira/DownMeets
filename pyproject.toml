@@ -1,0 +1,24 @@
+[project]
+name = "downmeets"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Douglas Oliveira",email = "63203428+imdsoliveira@users.noreply.github.com"}
+]
+readme = "README.md"
+package-mode = false
+packages = [
+    { include = "DownMeets" }
+]
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "gdown (>=5.2.0,<6.0.0)",
+    "yt-dlp (>=2025.3.31,<2026.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
