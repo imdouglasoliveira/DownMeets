@@ -1,4 +1,3 @@
-https://drive.google.com/file/d/1DTwXm5jdHZoI2V2E8zkKWb78IjAPEkaL/view?t=3
 # Adicione mais URLs abaixo (uma por linha)
 # Você também pode adicionar URLs de vídeos do Google Meet que foram compartilhados no Google Drive
 # Linhas que começam com # são tratadas como comentários e ignoradas
