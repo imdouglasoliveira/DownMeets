@@ -1,3 +1,7 @@
+[tool.poetry]
+package-mode = false
+
+
 [project]
 name = "DownMeets"
 version = "0.1.0"
@@ -6,7 +10,6 @@ authors = [
     {name = "Douglas Oliveira",email = "63203428+imdsoliveira@users.noreply.github.com"}
 ]
 readme = "README.md"
-package-mode = false
 packages = [
     { include = "DownMeets" }
 ]
@@ -16,7 +19,11 @@ dependencies = [
     "tqdm (>=4.67.1,<5.0.0)",
     "gdown (>=5.2.0,<6.0.0)",
     "yt-dlp (>=2025.3.31,<2026.0.0)",
-    "taskipy (>=1.14.1,<2.0.0)"
+    "taskipy (>=1.14.1,<2.0.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "openai (>=1.75.0,<2.0.0)",
+    "ffmpeg-python (>=0.2.0,<0.3.0)",
+    "pydub (>=0.25.1,<0.26.0)"
 ]
 
 [build-system]
